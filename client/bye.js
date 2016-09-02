@@ -1,7 +1,7 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 import ByeComp from "./imports/ByeComp.jsx"
-import './main.html';
+import './bye.html';
 
 Template.bye.onCreated(function helloOnCreated() {
   // counter starts at 0
